@@ -10,3 +10,4 @@ composed of diverse genres and promoting an awesome experience for the visitors
 
  The purpose of this site is purely academic. This was made based on the Alura Challenge
 
+</>
