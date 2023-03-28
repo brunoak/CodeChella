@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway:wght@500;600;700;800&display=swap');
+/*
+font-family: 'Calistoga', cursive;
+font-family: 'Raleway', sans-serif;
+
+font-style
+font-variant
+font-weight
+font-size/line-height
+font-family
+
+*/
+
+:root {
+    --font-family-title: 'Calistoga', cursive;
+    --font-family-text: 'Raleway', sans-serif;
+    --color-font: #FFF;
+    --color-header-footer-button-cordeon: #4650BD;
+    --color-call: #008364;
+    --color-body: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    --font-p: 500 20px 'Raleway';
+    --font-menu: 700 20px 'Raleway';
+    --font-h1: 64px 'Calistoga';
+    --font-h2: 800 48px 'Raleway';
+    --font-h3: 48px 'Calistoga';
+    --font-h4: 500 32px 'Raleway';
+    --font-h5: 700 40px 'Raleway';
+    --font-h6: 700 32px 'Raleway';
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+
+}
+
+.body_cabecalho {
+    background-color: var(--color-header-footer-button-cordeon);
+    height: 128px;
+    width: 100%;
+}
+
+.body_center {
+    width: 1200px;
+    height: 128px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho_menu_links li {
+    margin-left: 32px;
+    display: inline-flex;
+}
+
+.cabecalho_menu_links a {
+    font: var(--font-menu);
+    color: var(--color-font);
+}
+
+.cabecalho_menu_links a:hover {
+    font: var(--font-menu);
+    color: #9fa6f1;
+}
+
+/*
+.background img {
+    width: 100vw;
+}
+*/
+
+.background {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.background {
+    background: url("Tema Boreal/Desktop/Imagens/1 - Banner - homepage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 487px;
+}
+
+.background h1,
+p {
+    font: var(--font-h1);
+    color: var(--color-font)
+}
+
+.main_body {
+    background: var(--color-body);
+    height: 100%;
+}
+
+.sobre {
+    height: 509px;
+    display: flex;
+    align-items: center;
+}
+
+.sobre .sobre_first {
+    width: 1197px;
+    height: 381px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre .sobre_first .sobre_text {
+    width: 540px;
+    height: 340px;
+}
+
+.sobre .sobre_first .sobre_text {
+    width: 540px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sobre .sobre_first .sobre_text h6 {
+    font: var(--font-h6);
+    color: var(--color-font);
+    text-align: center;
+}
+
+.sobre .sobre_first .sobre_text p {
+    font: var(--font-p);
+    color: var(--color-font);
+    text-align: center;
+    Line-height: 40px;
+}
+
+.sobre .sobre_first .sobre_text a {
+    font: var(--font-p);
+    color: var(--color-font);
+    width: 256px;
+    height: 56px;
+    background-color: var(--color-header-footer-button-cordeon);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 4px 4px 0px #444444;
+}
+
+.sobre .sobre_first .sobre_text a:hover {
+    font: var(--font-p);
+    background-color: #606ADA;
+}
+
+.line-up h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: var(--font-h1);
+    color: var(--color-font);
+    height: 147px;
+}
+
+.lineup_sabado_domingo {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.lineup_sabado_domingo_title {
+    width: 1200px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lineup_sabado_domingo_title .line_right {
+    width: 359.5px;
+    height: 0px;
+    border: 1px solid #008364;
+
+}
+
+.lineup_sabado_domingo_title .line_left {
+    width: 359.5px;
+    height: 0px;
+
+    /* Verde escuro */
+
+    border: 1px solid #008364;
+
+}
+
+/*
+.lineup_sabado_domingo_title .line {
+    width: 359.5px;
+    height: 0px;
+    border: 1px solid #008364;
+}
+*/
+
+
+.lineup_sabado_domingo h3 {
+    width: 417px;
+    height: 94px;
+    font: var(--font-h3);
+    color: var(--color-font);
+    background-color: var(--color-call);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lineup_sabado_domingo_bandas {
+    width: 1197px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lineup_sabado_domingo_bandas h2 {
+    font: var(--font-h2);
+    color: var(--color-font);
+    display: flex;
+    justify-content: center;
+}
+
+.lineup_sabado_domingo_bandas h5,
+h6,
+h4 {
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lineup_sabado_domingo_bandas h5 p {
+    font: var(--font-h5);
+    color: var(--color-font);
+}
+
+.lineup_sabado_domingo_bandas h6 p {
+    font: var(--font-h6);
+    color: var(--color-font);
+}
+
+.lineup_sabado_domingo_bandas h4 p {
+    font: var(--font-h4);
+    color: var(--color-font);
+}
+
+.background_img {
+    margin-top: 56px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Tema Boreal/Desktop/Imagens/1 - Imagem - homepage2.png");
+    mix-blend-mode: multiply;
+    border: 1px solid #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 338px;
+}
+
+.rodape {
+    margin: 0 auto;
+    height: 232px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape_left {
+    width: 359px;
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rodape_sobre {
+    width: 326px;
+    height: 80px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.rodape p {
+    font: var(--font-p);
+}
+
+.rodape_redes_sociais {
+    display: inline-flex;
+}
