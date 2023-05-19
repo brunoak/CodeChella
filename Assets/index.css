@@ -18,14 +18,14 @@ font-family
     --color-header-footer-button-cordeon: #4650BD;
     --color-call: #008364;
     --color-body: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
-    --font-p: 500 20px 'Raleway';
-    --font-menu: 700 20px 'Raleway';
+    --font-p: 500 1.25rem 'Raleway';
+    --font-menu: 700 1.25rem 'Raleway';
     --font-h1: 64px 'Calistoga';
-    --font-h2: 800 48px 'Raleway';
-    --font-h3: 48px 'Calistoga';
-    --font-h4: 500 32px 'Raleway';
-    --font-h5: 700 40px 'Raleway';
-    --font-h6: 700 32px 'Raleway';
+    --font-h2: 800 3rem 'Raleway';
+    --font-h3: 3rem 'Calistoga';
+    --font-h4: 500 2rem 'Raleway';
+    --font-h5: 700 2.5rem 'Raleway';
+    --font-h6: 700 2rem 'Raleway';
 
 }
 
@@ -44,12 +44,12 @@ body {
 
 .body_cabecalho {
     background-color: var(--color-header-footer-button-cordeon);
-    height: 128px;
+    height: 8rem;
     width: 100%;
 }
 
 .body_center {
-    width: 1200px;
+    width: 75rem;
     height: 128px;
     margin: 0 auto;
     display: flex;
@@ -58,18 +58,30 @@ body {
 }
 
 .cabecalho_menu_links li {
-    margin-left: 32px;
+    margin-left: 2rem;
     display: inline-flex;
 }
 
 .cabecalho_menu_links a {
     font: var(--font-menu);
     color: var(--color-font);
+    position: relative;
 }
 
-.cabecalho_menu_links a:hover {
+.cabecalho_menu_links a::after {
+    content: "";
+    width: 0%;
+    height: 0.25rem;
+    background-color: var(--color-font);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.cabecalho_menu_links a:hover::after {
     font: var(--font-menu);
-    color: #9fa6f1;
+    width: 100%;
 }
 
 /*
@@ -86,7 +98,7 @@ body {
 }
 
 .background {
-    background: url("Tema Boreal/Desktop/Imagens/1 - Banner - homepage.png");
+    background: url("../Tema Boreal/Desktop/Imagens/1 - Banner - homepage.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 487px;
@@ -267,7 +279,7 @@ h4 {
 
 .background_img {
     margin-top: 56px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Tema Boreal/Desktop/Imagens/1 - Imagem - homepage2.png");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../Tema Boreal/Desktop/Imagens/1 - Imagem - homepage2.png");
     mix-blend-mode: multiply;
     border: 1px solid #000000;
     background-repeat: no-repeat;

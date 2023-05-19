@@ -1,0 +1,60 @@
+.setores {
+    background: url("../Tema Boreal/Desktop/Imagens/3\ -\ Banner\ -\ Mapa\ de\ setores.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 487px;
+}
+
+.lugares {
+    display: flex;
+    align-items: center;
+}
+
+.lugares img {
+    display: inline-flex;
+    padding: 2rem 3rem 2rem 7.5rem;
+}
+
+.descricao h6 {
+    font: var(--font-h6);
+    color: var(--color-font);
+
+}
+
+.descricao li {
+    font: var(--font-p);
+    color: var(--color-font);
+}
+
+.descricao li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.descricao li span {
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+}
+
+.descricao li .azul {
+    background-color: #0E7DF1;
+}
+
+.descricao li .rosa {
+    background-color: #FE016E;
+}
+
+.descricao li .verde {
+    background-color: #01A89E;
+}
+
+.descricao li .roxo {
+    background-color: #3F51B5;
+}
+
+.descricao li .ciano {
+    background-color: #0E7DF1;
+}

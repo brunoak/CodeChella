@@ -1,0 +1,60 @@
+.background {
+    height: 487px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../Tema Boreal/Desktop/Imagens/2\ -\ Banner\ -\ A\ Experiência.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: normal;
+}
+
+.section {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem auto;
+    gap: 3rem;
+    align-items: center;
+}
+
+.section div {
+    display: flex;
+    flex-direction: column;
+}
+
+.acessibilidade div,
+.atracoes div {
+    align-items: flex-start;
+}
+
+.sustentabilidade div {
+    align-items: flex-end;
+}
+
+.sustentabilidade {
+    padding: 4rem 0 4rem;
+}
+
+.section h6 {
+    font: var(--font-h6);
+    color: var(--color-font);
+    margin-bottom: 1.5rem;
+}
+
+.section p {
+    font: var(--font-p);
+    Line-height: 2.5rem;
+}
+
+.acessibilidade p {
+    text-align: left;
+}
+
+.sustentabilidade p {
+    text-align: right;
+}
+
+
+.content-footer {
+    background: var(--color-header-footer-button-cordeon);
+    width: 100%;
+    height: 232px;
+}
