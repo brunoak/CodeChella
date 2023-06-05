@@ -1,0 +1,39 @@
+.cabecalho_menu_links a{
+    text-decoration:  none;
+}
+
+.setores {
+    background: url("../Tema Boreal/Desktop/Imagens/4\ -\ Banner\ -\ Infos\ gerais.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 487px;
+}
+
+.info_titulo{
+    font: var(--font-h3);
+    color: var(--color-font);
+    text-align: center;
+    margin: 48px 0;
+}
+
+.accordion{
+    width: 996px;
+    margin: 0 auto;
+}
+
+.content-footer{
+    margin-top: 48px;
+}
+
+.btn_font{
+    font: var(--font-h6);
+    color: var(--color-font);
+}
+
+.accordion-button{
+    background-color:var(--color-header-footer-button-cordeon)!important
+}
+
+.accordion-body{
+    background-color: #C8DEEF;
+}

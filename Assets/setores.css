@@ -58,3 +58,37 @@
 .descricao li .ciano {
     background-color: #0E7DF1;
 }
+
+.detalhes_titulo{
+    font:var(--font-h5);
+    color: var(--color-font);
+    text-align: center;
+    margin-top: 48px;
+}
+
+.detalhes_subtitulo{
+    font: var(--font-h6);
+    color: var(--color-font);
+}
+
+.detalhes_paragrafo{
+    font: var(--font-p);
+    line-height: 40px;
+}
+
+.detalhes_div{
+    display: flex;
+    padding: 48px 120px;
+}
+
+.detalhes_info{
+    display: flex;
+    flex-direction:column;
+    gap: 24px;
+    padding: 24px;
+    text-align: center;
+}
+
+.detalhes_order{
+    margin-top: 108px;
+}
