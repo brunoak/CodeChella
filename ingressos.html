@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Favicon-cinza.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Assets/index.css">
+    <link rel="stylesheet" href="/Assets/experiencia.css">
+    <link rel="stylesheet" href="/Assets/setores.css">
+    <link rel="stylesheet" href="/Assets/informacoes.css">
+    <link rel="stylesheet" href="/Assets/ingresso.css">
+    <title>ingressos</title>
+</head>
+
+<body>
+    <header class="body_cabecalho">
+        <div class="body_center">
+            <a href="index.html"><img src="/img/Logo-branco.png" alt="Logo da CodeChella"></a>
+            <nav class="cabecalho_menu_links">
+                <ul>
+                    <li><a href="experiencia.html">A experiência</a></li>
+                    <li><a href="setores.html">Mapa de Setores</a></li>
+                    <li><a href="informacoes.html">Informações</a></li>
+                    <li><a href="ingressos.html">Ingresso</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="main_body">
+            <section class="background setores">
+                <!--<img src="Tema Boreal/Desktop/Imagens/1 - Banner - homepage.png" alt="Banner do CodeChella"> -->
+                <h1>Garanta seu Ingresso</h1>
+            </section>
+
+            <section class="formulario">
+                <h3>Preencha o formulário a seguir:</h3>
+
+                <form class="form" action="">
+                    <div class="contato">
+                        <p><label for="nome">Nome Completo:</label></p>
+                        <input type="text" name="nome" id="nome" required>
+                        
+                        <p><label for="email">E-mail:</label></p>
+                        <input type="email" name="email" id="email" required>
+                    </div>    
+                    <div class="dados">
+                        <div class="cpf">
+                            <p><label for="cpf">CPF:</label></p>
+                            <input type="text" name="cpf" id="cpf">
+                        </div>
+
+                        <div class="data">
+                            <p><label for="nascimento">Data de nascimento:</label></p>
+                            <input type="date" name="nascimento" id="nascimento">
+                        </div>
+                    </div>
+                        
+                    <input class="btn" type="submit" value="Avançar!">
+                    
+                </form>
+
+            </section>
+
+            <div class="content-footer">
+                <footer class="rodape">
+                    <div class="rodape_left">
+                        <a class="rodape_logo" href="http://"><img src="img/Logo-branco.png" alt="logo CodeChella"></a>
+                        <section class="rodape_redes_sociais">
+                            <p>acesse nossas redes:</p>
+                            <a href="http://"><img src="Tema Boreal/Desktop/Ícones/pngs/Ícones whatsapp.png"
+                                    alt="WhatsApp"></a>
+                            <a href="http://"><img src="Tema Boreal/Desktop/Ícones/pngs/Ícones Twitch.png"
+                                    alt="Twitch"></a>
+                            <a href="http://"><img src="Tema Boreal/Desktop/Ícones/pngs/Ícones Instagram.png"
+                                    alt="Instagram"></a>
+                            <a href="http://"><img src="Tema Boreal/Desktop/Ícones/pngs/Ícones Twitter.png"
+                                    alt="Twitter"></a>
+                        </section>
+                    </div>
+                    <section class="rodape_sobre">
+                        <p>Desenvolvido por Alura.</p>
+                        <p>Projeto fictício sem fins comerciais.</p>
+                    </section>
+                </footer>
+            </div>
+        </section>
+    </main>
+</body>

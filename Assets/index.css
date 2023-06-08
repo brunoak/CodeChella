@@ -37,6 +37,14 @@ font-family
     box-sizing: border-box;
 }
 
+.cabecalho_menu_links a{
+    text-decoration:  none;
+}
+
+.main_body a{
+    text-decoration:  none;
+}
+
 body {
     width: 100%;
 
