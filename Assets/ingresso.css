@@ -1,0 +1,75 @@
+.formulario h3{
+    font: var(--font-h3);
+    color: var(--color-font);
+    text-align: center;
+    margin-top: 48px;
+}
+
+.setores {
+    background: url("../Tema Boreal/Desktop/Imagens/5\ -\ Banner\ -\ garanta\ seu\ ingresso.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 487px;
+}
+
+.formulario p{
+    margin-top: 32px;
+}
+
+.form .dados{
+    display: inline-flex;
+    flex-direction: row;
+    outline: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form p{
+    font: var(--font-h6);
+}
+
+.form .cpf, .data{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.contato input{
+    width: 795px;
+    height: 48px;
+    outline: none;
+    font: var(--font-p);
+}
+
+.dados{
+    width: 795px;
+    justify-content: space-between;
+}
+
+.dados input{
+    width: 385.5px;
+    height: 60px;
+    outline: none;
+    font: var(--font-p);
+}
+
+.form .btn{
+    margin-top: 32px;
+    width: 164px;
+    height: 56px;
+    background-color: var(--color-header-footer-button-cordeon);
+    font: var(--font-p);
+    color: var(--color-font);
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.form .btn:hover{
+    background-color: #606ADA;
+}
