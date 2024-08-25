@@ -1,13 +1,16 @@
-<h1>CodeChella</h1>
-
+## CodeChella ##
 
 > Status: In development
 
+**Codechella é um site para compras de ingresso**
 
-The CodeChella is a festival of alternative music that happens annually, 
-composed of diverse genres and promoting an awesome experience for the visitors
+*Esse está sendo feito com:*
+
+- HTML
+- CSS
+- Bootstrap
+- Javascript
+
+![image](https://github.com/user-attachments/assets/00bcc43d-00f6-45d9-b654-c2888c3df7dc)
 
 
- The purpose of this site is purely academic. This was made based on the Alura Challenge
-
-</>
